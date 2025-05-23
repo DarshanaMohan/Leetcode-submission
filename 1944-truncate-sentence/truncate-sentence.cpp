@@ -2,7 +2,7 @@ class Solution {
 public:
     string truncateSentence(string s, int k) {
         int count = 0;
-        string res;
+        string res;                                                                                                                                                                                                                                                                                                                                                         
         for (int i = 0; i < s.size(); i++) {
             if (s[i] == ' ') {
                 count++;
