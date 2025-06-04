@@ -12,6 +12,7 @@ class Solution {
                 sign = - sign;
             }
         }
+        
         return sign;
 
     }
